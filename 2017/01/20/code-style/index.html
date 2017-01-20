@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="android-code-style," />
 
 
 
@@ -84,15 +84,16 @@
 
 
 
-<meta name="description" content="这里是小一的窝">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Vsona Space">
-<meta property="og:url" content="https://vsona.github.io/index.html">
+<meta name="description" content="1. Project guidelines1.1 Project structureNew projects should follow the Android Gradle project structure that is defined on the Android Gradle plugin user guide. The ribot Boilerplate project is a go">
+<meta property="og:type" content="article">
+<meta property="og:title" content="code-style">
+<meta property="og:url" content="https://vsona.github.io/2017/01/20/code-style/index.html">
 <meta property="og:site_name" content="Vsona Space">
-<meta property="og:description" content="这里是小一的窝">
+<meta property="og:description" content="1. Project guidelines1.1 Project structureNew projects should follow the Android Gradle project structure that is defined on the Android Gradle plugin user guide. The ribot Boilerplate project is a go">
+<meta property="og:updated_time" content="2017-01-20T07:00:37.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Vsona Space">
-<meta name="twitter:description" content="这里是小一的窝">
+<meta name="twitter:title" content="code-style">
+<meta name="twitter:description" content="1. Project guidelines1.1 Project structureNew projects should follow the Android Gradle project structure that is defined on the Android Gradle plugin user guide. The ribot Boilerplate project is a go">
 
 
 
@@ -113,9 +114,9 @@
 
 
 
-  <link rel="canonical" href="https://vsona.github.io/"/>
+  <link rel="canonical" href="https://vsona.github.io/2017/01/20/code-style/"/>
 
-  <title> Vsona Space </title>
+  <title> code-style | Vsona Space </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -155,9 +156,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -277,9 +276,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
   
@@ -299,10 +298,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/2017/01/20/code-style/" itemprop="url">
-                  code-style
-                </a>
+                code-style
               
             
           </h1>
@@ -349,9 +345,7 @@
       
 
       
-        
-          
-            <h1 id="1-Project-guidelines"><a href="#1-Project-guidelines" class="headerlink" title="1. Project guidelines"></a>1. Project guidelines</h1><h2 id="1-1-Project-structure"><a href="#1-1-Project-structure" class="headerlink" title="1.1 Project structure"></a>1.1 Project structure</h2><p>New projects should follow the Android Gradle project structure that is defined on the <a href="http://tools.android.com/tech-docs/new-build-system/user-guide#TOC-Project-Structure" target="_blank" rel="external">Android Gradle plugin user guide</a>. The <a href="https://github.com/ribot/android-boilerplate" target="_blank" rel="external">ribot Boilerplate</a> project is a good reference to start from.</p>
+        <h1 id="1-Project-guidelines"><a href="#1-Project-guidelines" class="headerlink" title="1. Project guidelines"></a>1. Project guidelines</h1><h2 id="1-1-Project-structure"><a href="#1-1-Project-structure" class="headerlink" title="1.1 Project structure"></a>1.1 Project structure</h2><p>New projects should follow the Android Gradle project structure that is defined on the <a href="http://tools.android.com/tech-docs/new-build-system/user-guide#TOC-Project-Structure" target="_blank" rel="external">Android Gradle plugin user guide</a>. The <a href="https://github.com/ribot/android-boilerplate" target="_blank" rel="external">ribot Boilerplate</a> project is a good reference to start from.</p>
 <h2 id="1-2-File-naming"><a href="#1-2-File-naming" class="headerlink" title="1.2 File naming"></a>1.2 File naming</h2><h3 id="1-2-1-Class-files"><a href="#1-2-1-Class-files" class="headerlink" title="1.2.1 Class files"></a>1.2.1 Class files</h3><p>Class names are written in <a href="http://en.wikipedia.org/wiki/CamelCase" target="_blank" rel="external">UpperCamelCase</a>.</p>
 <p>For classes that extend an Android component, the name of the class should end with the name of the component; for example: <code>SignInActivity</code>, <code>SignInFragment</code>, <code>ImageUploaderService</code>, <code>ChangePasswordDialog</code>.</p>
 <h3 id="1-2-2-Resources-files"><a href="#1-2-2-Resources-files" class="headerlink" title="1.2.2 Resources files"></a>1.2.2 Resources files</h3><p>Resources file names are written in <strong>lowercase_underscore</strong>.</p>
@@ -802,516 +796,117 @@
 <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">onView(withId(R.id.view))</div><div class="line">        .perform(scrollTo())</div><div class="line">        .check(matches(isDisplayed()))</div></pre></td></tr></table></figure>
 <h1 id="License"><a href="#License" class="headerlink" title="License"></a>License</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">Copyright 2015 Ribot Ltd.</div><div class="line"></div><div class="line">Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);</div><div class="line">you may not use this file except in compliance with the License.</div><div class="line">You may obtain a copy of the License at</div><div class="line"></div><div class="line">    http://www.apache.org/licenses/LICENSE-2.0</div><div class="line"></div><div class="line">Unless required by applicable law or agreed to in writing, software</div><div class="line">distributed under the License is distributed on an &quot;AS IS&quot; BASIS,</div><div class="line">WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.</div><div class="line">See the License for the specific language governing permissions and</div><div class="line">limitations under the License.</div></pre></td></tr></table></figure>
 
-          
+      
+    </div>
+
+    <div>
+      
         
+
       
     </div>
 
     <div>
       
+        
+  <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+    <div>坚持原创技术分享，您的支持将鼓励我继续创作！</div>
+    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+      <span>赏</span>
+    </button>
+    <div id="QR" style="display: none;">
+      
+        <div id="wechat" style="display: inline-block">
+          <img id="wechat_qr" src="http://static.orzvv.com/image-me/pay-wx.jpg" alt="vsona WeChat Pay"/>
+          <p>微信打赏</p>
+        </div>
+      
+      
+        <div id="alipay" style="display: inline-block">
+          <img id="alipay_qr" src="http://static.orzvv.com/image-me/pay-ali.jpg" alt="vsona Alipay"/>
+          <p>支付宝打赏</p>
+        </div>
+      
     </div>
+  </div>
 
-    <div>
+
       
     </div>
 
     <footer class="post-footer">
       
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/01/15/j/" itemprop="url">
-                  j
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-01-15T11:58:04+08:00" content="2017-01-15">
-              2017-01-15
-            </time>
-          </span>
-
+        <div class="post-tags">
           
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2017/01/15/j/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/01/15/j/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
+            <a href="/tags/android-code-style/" rel="tag">#android-code-style</a>
           
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <ul>
-<li>For 循环的设计思想深受可变状态与副作用的影响，不过函数式编程中认为可变状态与副作用是导致潜在错误与不可预测性的罪魁祸首，是应该尽力避免的模式。众所周知，使用全局状态会污染局部代码，而同样的局部状态同样会导致与全局状态一样的问题，只不过因为局部状态的影响被限制在较小的影响范围内，因此不像全局状态那样的突兀。允许可变的状态也就意味着变量可能因为未知的原因被改变，开发者可能要花费数小时的时间去定位到底是哪一段代码修改了这个变量值。在过去的开发岁月里，我就是因为这样变秃了，却似乎没有变强。另一方面，任何修改除了作用域内变量值的函数都被称为有副作用的函数。典型的譬如修改全局变量、读入键盘输入、调用远程 API 、写入磁盘等等。副作用的功效强大，我们应该尽可能地将其封装与控制在一定范围内</li>
-</ul>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
+              <a href="/2017/01/15/j/" rel="next" title="j">
+                <i class="fa fa-chevron-left"></i> j
+              </a>
             
-              
-                
-                <a class="post-title-link" href="/2016/11/08/hello-world/" itemprop="url">
-                  Hello World
-                </a>
-              
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
             
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-11-08T10:29:45+08:00" content="2016-11-08">
-              2016-11-08
-            </time>
-          </span>
-
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/11/08/hello-world/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/11/08/hello-world/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
+          </div>
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
+
+    <div class="post-spread">
       
+        <div class="ds-share flat" data-thread-key="2017/01/20/code-style/"
+     data-title="code-style"
+     data-content=""
+     data-url="https://vsona.github.io/2017/01/20/code-style/">
+  <div class="ds-share-inline">
+    <ul  class="ds-share-icons-16">
 
-  
-  
+      <li data-toggle="ds-share-icons-more"><a class="ds-more" href="javascript:void(0);">分享到：</a></li>
+      <li><a class="ds-weibo" href="javascript:void(0);" data-service="weibo">微博</a></li>
+      <li><a class="ds-qzone" href="javascript:void(0);" data-service="qzone">QQ空间</a></li>
+      <li><a class="ds-qqt" href="javascript:void(0);" data-service="qqt">腾讯微博</a></li>
+      <li><a class="ds-wechat" href="javascript:void(0);" data-service="wechat">微信</a></li>
 
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/07/21/pic-wall/" itemprop="url">
-                  pic-wall
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-07-21T20:41:24+08:00" content="2016-07-21">
-              2016-07-21
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/照骗/" itemprop="url" rel="index">
-                    <span itemprop="name">照骗</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/07/21/pic-wall/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/07/21/pic-wall/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p><img src="http://obfgkj0so.qnssl.com/image-me/img_avatar_cat.gif" alt=""></p>
-
-          
-        
+    </ul>
+    <div class="ds-share-icons-more">
+    </div>
+  </div>
+</div>
       
     </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/07/21/demo/" itemprop="url">
-                  demo
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-07-21T20:37:37+08:00" content="2016-07-21">
-              2016-07-21
-            </time>
-          </span>
-
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/07/21/demo/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/07/21/demo/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h2 id="d这是"><a href="#d这是" class="headerlink" title="d这是"></a>d这是</h2><p>这样表示大标题</p>
-<ul>
-<li>dha</li>
-<li>asdlkj</li>
-<li>daskldj<ul>
-<li>dlasjd</li>
-<li>asldkjaslkd</li>
-</ul>
-<ul>
-<li>asdkljasd</li>
-</ul>
-<ul>
-<li>sdljaksd<ul>
-<li>askdjlasjd</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h2 id="哈哈"><a href="#哈哈" class="headerlink" title="哈哈"></a>哈哈</h2><ul>
-<li>a</li>
-<li>b</li>
-<li>c</li>
-</ul>
-<p>hehe</p>
-<p>wuwu</p>
-<p>nihao</p>
-<p>hehe<br>hehe<br>hehe<br>呼呼<br>nihao<br><em>这些文字显示为斜体</em><br><strong>这些文字显示为粗体</strong>  </p>
-<ol>
-<li>1</li>
-<li>2</li>
-<li>3<blockquote>
-<p>hehe</p>
-</blockquote>
-</li>
-</ol>
-<ul>
-<li><img src="http://obfgkj0so.qnssl.com/image-me/img_avatar_cat.gif" alt="hehe"></li>
-<li><a href="http://static.orzvv.com/image-me/img_avatar_cat.gif" target="_blank" rel="external">http://static.orzvv.com/image-me/img_avatar_cat.gif</a></li>
-</ul>
-<hr>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-  </section>
-
-  
+  </div>
 
 
           </div>
           
 
+  <p>热评文章</p>
+  <div class="ds-top-threads" data-range="weekly" data-num-items="4"></div>
+
 
           
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2017/01/20/code-style/"
+           data-title="code-style" data-url="https://vsona.github.io/2017/01/20/code-style/">
+      </div>
+    
+  </div>
+
 
         </div>
         
@@ -1331,8 +926,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="http://static.orzvv.com/image-me/img_avater_cat.gif"
@@ -1407,6 +1011,17 @@
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1-Project-guidelines"><span class="nav-number">1.</span> <span class="nav-text">1. Project guidelines</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-1-Project-structure"><span class="nav-number">1.1.</span> <span class="nav-text">1.1 Project structure</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-2-File-naming"><span class="nav-number">1.2.</span> <span class="nav-text">1.2 File naming</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-2-1-Class-files"><span class="nav-number">1.2.1.</span> <span class="nav-text">1.2.1 Class files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-2-2-Resources-files"><span class="nav-number">1.2.2.</span> <span class="nav-text">1.2.2 Resources files</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-2-2-1-Drawable-files"><span class="nav-number">1.2.2.1.</span> <span class="nav-text">1.2.2.1 Drawable files</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#1-2-2-2-Layout-files"><span class="nav-number">1.2.2.2.</span> <span class="nav-text">1.2.2.2 Layout files</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#1-2-2-3-Menu-files"><span class="nav-number">1.2.2.3.</span> <span class="nav-text">1.2.2.3 Menu files</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#1-2-2-4-Values-files"><span class="nav-number">1.2.2.4.</span> <span class="nav-text">1.2.2.4 Values files</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-Code-guidelines"><span class="nav-number">2.</span> <span class="nav-text">2 Code guidelines</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#2-1-Java-language-rules"><span class="nav-number">2.1.</span> <span class="nav-text">2.1 Java language rules</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#2-1-1-Don’t-ignore-exceptions"><span class="nav-number">2.1.1.</span> <span class="nav-text">2.1.1 Don’t ignore exceptions</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-1-2-Don’t-catch-generic-exception"><span class="nav-number">2.1.2.</span> <span class="nav-text">2.1.2 Don’t catch generic exception</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-1-3-Don’t-use-finalizers"><span class="nav-number">2.1.3.</span> <span class="nav-text">2.1.3 Don’t use finalizers</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-1-4-Fully-qualify-imports"><span class="nav-number">2.1.4.</span> <span class="nav-text">2.1.4 Fully qualify imports</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-2-Java-style-rules"><span class="nav-number">2.2.</span> <span class="nav-text">2.2 Java style rules</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#2-2-1-Fields-definition-and-naming"><span class="nav-number">2.2.1.</span> <span class="nav-text">2.2.1 Fields definition and naming</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-2-3-Treat-acronyms-as-words"><span class="nav-number">2.2.2.</span> <span class="nav-text">2.2.3 Treat acronyms as words</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-2-4-Use-spaces-for-indentation"><span class="nav-number">2.2.3.</span> <span class="nav-text">2.2.4 Use spaces for indentation</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-2-5-Use-standard-brace-style"><span class="nav-number">2.2.4.</span> <span class="nav-text">2.2.5 Use standard brace style</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-2-6-Annotations"><span class="nav-number">2.2.5.</span> <span class="nav-text">2.2.6 Annotations</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#2-2-6-1-Annotations-practices"><span class="nav-number">2.2.5.1.</span> <span class="nav-text">2.2.6.1 Annotations practices</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-2-6-2-Annotations-style"><span class="nav-number">2.2.5.2.</span> <span class="nav-text">2.2.6.2 Annotations style</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-2-7-Limit-variable-scope"><span class="nav-number">2.2.6.</span> <span class="nav-text">2.2.7 Limit variable scope</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-2-8-Order-import-statements"><span class="nav-number">2.2.7.</span> <span class="nav-text">2.2.8 Order import statements</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-2-9-Logging-guidelines"><span class="nav-number">2.2.8.</span> <span class="nav-text">2.2.9 Logging guidelines</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-2-10-Class-member-ordering"><span class="nav-number">2.2.9.</span> <span class="nav-text">2.2.10 Class member ordering</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-2-11-Parameter-ordering-in-methods"><span class="nav-number">2.2.10.</span> <span class="nav-text">2.2.11 Parameter ordering in methods</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-2-13-String-constants-naming-and-values"><span class="nav-number">2.2.11.</span> <span class="nav-text">2.2.13 String constants, naming, and values</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-2-14-Arguments-in-Fragments-and-Activities"><span class="nav-number">2.2.12.</span> <span class="nav-text">2.2.14 Arguments in Fragments and Activities</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-2-15-Line-length-limit"><span class="nav-number">2.2.13.</span> <span class="nav-text">2.2.15 Line length limit</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#2-2-15-1-Line-wrapping-strategies"><span class="nav-number">2.2.13.1.</span> <span class="nav-text">2.2.15.1 Line-wrapping strategies</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-2-16-RxJava-chains-styling"><span class="nav-number">2.2.14.</span> <span class="nav-text">2.2.16 RxJava chains styling</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-3-XML-style-rules"><span class="nav-number">2.3.</span> <span class="nav-text">2.3 XML style rules</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#2-3-1-Use-self-closing-tags"><span class="nav-number">2.3.1.</span> <span class="nav-text">2.3.1 Use self closing tags</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-3-2-Resources-naming"><span class="nav-number">2.3.2.</span> <span class="nav-text">2.3.2 Resources naming</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#2-3-2-1-ID-naming"><span class="nav-number">2.3.2.1.</span> <span class="nav-text">2.3.2.1 ID naming</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-3-2-2-Strings"><span class="nav-number">2.3.2.2.</span> <span class="nav-text">2.3.2.2 Strings</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-3-2-3-Styles-and-Themes"><span class="nav-number">2.3.2.3.</span> <span class="nav-text">2.3.2.3 Styles and Themes</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-3-3-Attributes-ordering"><span class="nav-number">2.3.3.</span> <span class="nav-text">2.3.3 Attributes ordering</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-4-Tests-style-rules"><span class="nav-number">2.4.</span> <span class="nav-text">2.4 Tests style rules</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#2-4-1-Unit-tests"><span class="nav-number">2.4.1.</span> <span class="nav-text">2.4.1 Unit tests</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-4-2-Espresso-tests"><span class="nav-number">2.4.2.</span> <span class="nav-text">2.4.2 Espresso tests</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#License"><span class="nav-number">3.</span> <span class="nav-text">License</span></a></li></ol></div>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -1503,6 +1118,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
 
   
 
